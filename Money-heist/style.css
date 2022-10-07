@@ -1,0 +1,103 @@
+h1 {
+    padding: 20px;
+    /* width: 100%; */
+    margin: auto;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+img {
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.bill {
+    margin: 20px;
+    width: 15%;
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.736);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 35px;
+
+}
+
+.watch {
+    border: 2px solid violet;
+    margin: 20px;
+    width: 20%;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(241, 14, 25, 0.584)
+}
+
+.watch:hover {
+    box-shadow: 0 4px 15px 0 rgba(226, 6, 134, 0.75);
+
+    
+}
+
+.later {
+    border: 2px solid #eb4b5b;
+   margin: auto;
+    width: 20%;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.later:hover {
+    box-shadow: 0 4px 15px 0 rgba(129, 92, 113, 0.75);
+
+
+
+}
+
+footer {
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: crimson;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 40px;
+    border-bottom: 1px dotted white;
+
+
+}
+
+footer a:hover {
+    border-bottom: 1px solid blue;
+    color: blue;
+
+}
